@@ -9,6 +9,12 @@ public class Seasons {
 		month = scan.nextLine();
 		scan.close();
 		month = month.toUpperCase();
+		
+		String firstLetter = month.char(0).toUpperCase();
+	    String restLetters = data.substring(1).toLowerCase();
+	      return firstLetter + restLetters;
+	      
+	      
 		switch (month){
 			case "JANUARY": case "FEBURARY": case "March":
 				System.out.println(month + " is in Winter ");
