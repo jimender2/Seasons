@@ -1,6 +1,10 @@
 import java.util.*;
 import java.util.Scanner;
-
+/*
+Jonathan Meredith
+This program does something that I really dont remember.
+*/
+	
 
 public class Seasons {
 	public static void main(String[] args) {
